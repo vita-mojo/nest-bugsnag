@@ -5,9 +5,9 @@
  <p align="center">A Nest module wrapper for bugsnag logger.</p>
  
 <p align="center">
-<a href=""><img src="" alt="NPM Version" /></a>
-<a href=""><img src="" alt="Package License" /></a>
-<a href=""><img src="" alt="NPM Downloads" /></a>
+<a href="https://github.com/vita-mojo/nest-bugsnag"><img src="https://img.shields.io/npm/v/nest-bugsnag.svg" alt="NPM Version" /></a>
+<a href="https://github.com/vita-mojo/nest-bugsnag"><img src="https://img.shields.io/npm/l/nest-bugsnag.svg" alt="Package License" /></a>
+<a href="https://github.com/vita-mojo/nest-bugsnag"><img src="https://img.shields.io/npm/dm/nest-bugsnag.svg" alt="NPM Downloads" /></a>
 </p>
 
 ## Description
