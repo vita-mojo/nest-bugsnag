@@ -1,6 +1,6 @@
 {
   "name": "nest-bugsnag",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A Nest module wrapper for bugsnag",
   "keywords": [
     "nestjs",
@@ -12,24 +12,28 @@
   "author": "Vitamojo Software",
   "license": "MIT",
   "scripts": {
-    "build": "rimraf dist && tsc -p tsconfig.json",
+    "clean:build": "npm run clean && npm run build",
+    "build": "tsc -p tsconfig.json",
+    "clean": "rimraf dist",
     "postbuild": "ts-node postbuild.ts",
-    "prepublishOnly": "npm run clean && npm run build",
+    "prepublishOnly": "npm run clean:build",
     "test": "jest --config jest.config.json"
   },
-  "devDependencies": {
+  "dependencies": {
     "@bugsnag/js": "5.2.0",
     "@nestjs/common": "6.1.1",
     "@nestjs/core": "6.1.1",
     "@nestjs/platform-express": "6.1.1",
+    "reflect-metadata": "0.1.13",
+    "rxjs": "6.5.1",
+    "rimraf": "2.6.3"
+  },
+  "devDependencies": {
     "@nestjs/testing": "6.1.1",
     "@types/jest": "^24.0.11",
     "@types/supertest": "^2.0.7",
     "jest": "^24.7.1",
     "nodemon": "^1.18.11",
-    "reflect-metadata": "0.1.13",
-    "rimraf": "2.6.3",
-    "rxjs": "6.5.1",
     "supertest": "^4.0.2",
     "ts-jest": "^24.0.2",
     "ts-node": "^8.1.0",
