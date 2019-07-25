@@ -20,6 +20,13 @@ A [Nest](https://github.com/nestjs/nest) module wrapper for [bugsnag-js](https:/
 $ npm i nest-bugsnag --save
 ```
 
+## Publish to npm
+```bash
+$ npm run clean:build
+$ cd dist
+$ npm publish
+```
+
 ## Quick Start
 
 Import the `BugsnagModule` into the module. For example `AppModule`:
