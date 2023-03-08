@@ -28,7 +28,7 @@
   "dependencies": {
     "@bugsnag/js": "5.2.0",
     "@nestjs/common": "6.5.3",
-    "@nestjs/core": "6.5.3",
+    "@nestjs/core": "9.0.5",
     "@nestjs/platform-express": "6.5.3",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.5.2",
